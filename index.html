@@ -15,25 +15,11 @@
         <option value="Chery">Chery:</option>
         <option value="Pie">Pie:</option>
     </select> -->
-    <ul id="draw"></ul>
+    <ol id="draw"></ol>
 
-<script>
-        fetch('draws.json')
-            .then((resp) => resp.json())
-            .then((json) => {
-                // console.log(json)
-            let draw = json.draw
-            let output = ''
-            for(let i = 0; i < draw.length; i++){
-                output += "<li>" + draw[i] + "</li>"
-            }
-            document.getElementById('draw').innerHTML = output
+<script src='./main.js'>
         
+    </script>
     
-        })
-    
-
-
-</script>
 </body>
 </html>
