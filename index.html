@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lotto Number Generator</title>
+</head>
+<body>
+    <h1>My Selection of Functions</h1>
+</br>
+    <!-- <select id="my_select" onchange="change_myselect(this.value)">
+        <option value="">Choose an option:</option>
+        <option value="Sweet">Sweet:</option>
+        <option value="Chery">Chery:</option>
+        <option value="Pie">Pie:</option>
+    </select> -->
+    <ul id="draw"></ul>
+
+<script>
+        fetch('draws.json')
+            .then((resp) => resp.json())
+            .then((json) => {
+                // console.log(json)
+            let draw = json.draw
+            let output = ''
+            for(let i = 0; i < draw.length; i++){
+                output += "<li>" + draw[i] + "</li>"
+            }
+            document.getElementById('draw').innerHTML = output
+        
+    
+        })
+    
+
+
+</script>
+</body>
+</html>
