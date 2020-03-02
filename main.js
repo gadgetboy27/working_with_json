@@ -6,11 +6,11 @@ const matchList = document.getElementById('match-list')
     const res = await fetch('draws.json')
     const data = await res.json()
 
-    // console.log(data)
-    // Get text match
+// Get text match
     let matches = data.filter(call => {
-        const regex = new RegExp(`^${searchText}`, 'gi')
-        return call.name.match(regex) || state.abbr.match(regex)
+        const regex = new RegExp(`${searchText}`)
+        return call.number.match(regex) 
+// || call.date.match(regex)
     })
     
     if (searchText.length === 0) {
@@ -25,9 +25,9 @@ const matchList = document.getElementById('match-list')
      if(matches.length > 0) {
          const html = matches.map(match => `
          <div class="card card-body mb-1">
-         <h4>${match.name} (${match.abbr}) <span class="text-primary">
-         ${match.capital}</span></h4>
-         <small>Lat: ${match.lat} / Long: ${match.long}</small>
+         <h4>${match.number} <span class="text-primary">
+         ${match.date}</span></h4>
+         <small>Date: ${match.date} / Draw: ${match.draw}</small>
          </div>
          `)
          .join()
@@ -38,23 +38,6 @@ const matchList = document.getElementById('match-list')
 
   search.addEventListener('input', () => searchNumber(search.value))
 
-
-
-//     if (searchText.length === 0) {
-//         matches = []
-//     }
-//     console.log(numbers)
-    
-// }
-
-// const outputHtml = matches => {
-//     if(matches.length > 0) {
-//         const html = matches.map(match => `
-//         <div class="card card-body mb-1">
-//             <h4>${match.draw}</h4>`
-//         )
-//     }
-// }
 
 
 
