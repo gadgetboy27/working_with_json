@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+	<div class="article">
+     <p>You can use this combinations and permutations calculator to quickly and easily calculate the number of potential combinations and permutations of <b>r</b> elements within a set of <b>n</b> objects.</p>
+     <p>Calculate Combinations and Permutations in Five Easy Steps:</p>
+     <ul>
+     <li>1. Select whether you would like to calculate the number of combinations or the number of permutations using the simple drop-down menu</li>
+     <li>2. Enter the total number of objects (n) and number of elements taken at a time (r)</li>
+     <li>3. Select whether repeat elements are permitted</li>
+     <li>4. Input a list of elements, separated by commas (optional)</li>
+     <li>5. Press the "Calculate" button to compute the results.</li>
+     </ul>
+     </div>
+      <div class="Begin goodCalculator">
+      <fieldset>
+      <legend>Combinations (nCr) &amp; Permutations (nPr) Calculator</legend>
+             <form name="calculator" class="contact">
+                
+             <p>
+          <label>What you would like to calculate?</label>
+          <select id="selclc">
+          <option value="0">The number of combinations</option>
+          <option value="1">The number of permutations</option>
+          </select>
+             </p>
+             
+             <p id="slrep">
+          <label>Repetition</label>
+          <select id="comrep">
+          <option value="0">No repetition is allowed</option>
+          <option value="1">Repetition is allowed</option>
+          </select>
+            
+             <p>
+          <label>Total number of objects (n)</label>
+          <input type="number" id="nobj" value="9" min="0" placeholder="n">
+             </p>
+             
+             <p>
+          <label>Number of elements taken (r)</label>
+          <input type="number" id="robj" value="4" min="0" placeholder="r">
+            
+             <p style="margin-top:1em">
+          <label>List of objects (optional, ≥n)</label>
+          <textarea id="listobj" style="text-align:left;">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</textarea>
+             </p>
+             
+             <p>
+         <input id="calculate" type="button" class="submit" value="Calculate" onclick="Calc_CPnr()">
+         <input type="button" class="submit" value="Reset" onclick="Reset()">
+            </p>
+           <input id="hres" type="hidden" value="2000">
+             </form>
+      </fieldset>
+                                 
+            <div class="resultBlock hidden">
+            <div class="imgst" style="font-size:16px;font-weight:bold;color:#444444;margin-left:5px;">Results</div>
+            <div id="clmres"></div>
+            <div id="blhide" style="display:none">
+            <div id="CPnres"></div>	
+            <div class="notes" style="padding:1em;margin-top:1em;background:#FEF7D2">
+            <div id="status"></div>
+            </div>
+            </div>
+ 
+                 </div>  
+                     </div>
+            
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="formula.js"></script>
+                                     </span></span>
+</body>
+</html>
