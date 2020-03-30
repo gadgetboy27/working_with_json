@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <title>Lotto Number Generator</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col md-6 m-auto">
+                <h3 class="text-center mb-3">
+                    Lotto Functions
+                </h3>
+                <div class="form-group">
+                  <input 
+                    type="text" 
+                    id="search" 
+                    name="draw"
+                    class="form-control form-control-lg" 
+                    placeholder="Enter search range"/>
+                </div>
+                <div id="match-list"></div>
+            </div>
+        </div>
+    </div>
+    
+</br>
+<script>
+    $(document).ready(function() {
+        
+        $("input").keyup(function() {
+            var draw = $("input").val()
+            $.post("draws.php", {
+                draws: draw
+            }, function(data, status) {
+                $("#match-list").load(data)
+            })
+        })
+    })
+</script>
+   
+
+
+
+</body>
+</html>

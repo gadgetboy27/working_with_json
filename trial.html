@@ -81,7 +81,19 @@
       </div>
    </div>
 
-   <script src="formula.js.js"></script>
+   <script>
+       $(document).ready(function() {
+
+        $('input').keyup(function() {
+            var draw = $('input').val()
+            $.post('draws.php', {
+                draws: draw
+            }, function(data, status) {
+                $()
+            })
+        })
+       })
+   </script>
    </span></span>
 </body>
 
