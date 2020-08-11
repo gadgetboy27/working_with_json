@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "learn-lottonumber-data",
+  "private_key_id": "fb693f932ccaa4eb45e410e5183246af67e654b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwY7AIVFUoZD+I\nl8QwXyPHbSnsBrDtAj0J8vmtOwrrPEsqFpUzllp+cer2hbvwJW4nhnALjHtY+CDk\nxrKPy2zfa3POHM5ayBYzfwfrXYuL6ert0Drkxi5Uf0bJU81r0cfpdVrM7ORojrkX\nR7amt6K/lqMOAI9Aa67NWkBgbH3MjkeqPnS0YPeviCx8GoqAna3w3rLT0+5Z6HHx\nhJ/kK93kVVZv9bsnhUD/8godxNkaRSRRh7hsNHWmEJI11GclowW2iOaV5IuJUhzs\nHh8Ty9y1fEcEJ55AKRe8QIY4i7F8/flLKEn6pEF4MSg9geSjgNRnaXpmaGkDEne7\ng0nHDZClAgMBAAECggEAEOKCC9IS0sqB4G/yulSpJqJ3BF6BmjaAJE8rgl8oBOuh\nIFbIEoeegwMhpFaZ7nuOx17Ro/FfL12VPIEev7AP7HUrQTw1rq//nA9ZcTjjrlGG\niRxJPvQPpEwIuSX6AIu00M7IkdxNYwrige19+QiUHjXrxt/b1qVYNtUgW3qXMjj1\nhc7YQC/E/G09dndQdcAPAyGysI1vg0IhkknHkVHmMvkD//bT48kh8kpXBrpPGUKj\nQPQpVnirzBKk3wYOMnBgR7gLYhMHzL0MV7fKjMjrH7TwimsAr4/VMkOMVV0eHUSo\nK9A2w0M2KBREFN0C6TRvnvW3+EgfnTY11cIkgRDsIwKBgQDuHMj92btdQtI4qzhW\nU325sYQmGsoX10x0zelsdEf3TirsCBU8ok36sHF4b5WbvyAb1bBSTscJg6lTlK1I\nbYuFsNgxSrIa3fiNeVaI3OXhmm9GwGAeGT9MWNoz/QVd/ViBKUNyLrTh2srt1ZD4\nCW4Gm9HzMtjLmdXBgLjvnxD1dwKBgQC9o+Mw1Chm0RXvGClP8Uf+uhyXm6HW+LfT\nauv7wKCcI+YGY8MzePPfhZ7VqVCbKuGZhudH+VAxpgw1HV75pYWWVuxC3gXIT5UD\nH8YLrEzWalsTBWzS/JiZaqx2t5ldAt6E8mZW6PhQPUMgwPotFnqAH82EoW3KXcHc\nnAiNEwPhwwKBgQDF8Ifk/qsSzAmVskATAzTwuPDx/DMjvoaAUuxIjCGHJCPqMo30\n6beJPkQVqizkW+2FNg5tXa936UtJf77NBsOFT41o7H9CdmO4t7WH8JnpAUifuCwu\n2S4VeYdq0Fs11vVL6dF3ifw0BH3NWEw65Rvhwoa1dP9jwW5AfZE/ISwn4QKBgEFj\n74T4wu2hDxUgma4tHowhFJbaXVXI8Wn/JlvqsfblEf4GDFsFS+I5Kum1tkuq35uW\nvs08lIBqJy9xbzxZ7NRIKLNt50SI3HL1U87WnLAagEjwx/OAkgXkmI9fA4zk3mGt\nS8iQEH9qgGkc4acGZzsivDUNjNQIvD4bt38dnWsNAoGAb52o+QwOFdV/JTS9Gu1V\nt7fwuAW2CRinVJKV4jtzRL0G/Dd+IdHIXU0z7LwvzaxHPIWyouacLRqpAUf9m8NJ\nRJO0aKAZqVwU8hExMkvgcTK+nIkoZgmXdkdfdCLGONpaoF2DZjmxtW1j+g8AZI2K\n8wvoEvjXgUI7/JYCpmKACwc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nike-85@learn-lottonumber-data.iam.gserviceaccount.com",
+  "client_id": "116623483406807764495",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nike-85%40learn-lottonumber-data.iam.gserviceaccount.com"
+}

@@ -18,7 +18,7 @@ function ajax(t) {
         n = $("#listobj").val(),
         a = JSON.stringify(n);
     if (t = {
-        url: "/my.php",
+        url: console.log(t),
         statbox: "status",
         method: "POST",
         data: {

@@ -24,7 +24,13 @@ function ajax(t) {
     a = JSON.stringify(n);
   if (
     ((t = {
-        url: "/data.php",
+      _url: "data.php",
+      get url() {
+        return this._url;
+      },
+      set url(value) {
+        this._url = value;
+      },
         statbox: "status",
         method: "POST",
         data: {
@@ -67,7 +73,7 @@ function ajax(t) {
   req.open(method, t.url, !0),
     t.statbox &&
     (document.getElementById(t.statbox).innerHTML =
-      '<img src="/img/prload.gif">'),
+    t.data),
     req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"),
     req.send(send),
     (req.onreadystatechange = function () {
